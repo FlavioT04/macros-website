@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Food_display
 
-# Register your models here.
+admin.site.register(Food_display)
